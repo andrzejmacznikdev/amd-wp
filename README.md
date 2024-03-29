@@ -1,1 +1,2 @@
 # amd-wp
+## Wordpress Theme
