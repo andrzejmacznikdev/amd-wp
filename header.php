@@ -22,7 +22,7 @@
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" href="/wp-content/themes/amd-wp-theme/swiper/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="/wp-content/themes/amd-wp/swiper/swiper-bundle.min.css" />
         <?php wp_head(); ?>
     </head>
 
@@ -30,4 +30,4 @@
         <?php wp_body_open();?>
         <?php get_template_part('parts/core/header');?>
 
-        <main id="mainContent" class="prel flex column col-12">
+        <div id="main-content" class="flex flex-column w-full p-rel">

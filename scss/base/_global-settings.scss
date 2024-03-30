@@ -1,0 +1,36 @@
+.mt-h {
+    margin-top: var(--header-xlg-size);
+    @include desktop-large {
+        margin-top: var(--header-lg-size);
+    }
+    @include tablet-small {
+        margin-top: var(--header-sm-size);
+    }
+}
+.t-h {
+    top: var(--header-xlg-size);
+    @include desktop-large {
+        top: var(--header-lg-size);
+    }
+    @include tablet-small {
+        top: var(--header-sm-size);
+    }
+}
+.c-white {
+    color: var(--white);
+    p {
+        color: var(--white);
+    }
+    a {
+        color: var(--white);
+    }
+}
+.c-black {
+    color: var(--black);
+    p {
+        color: var(--black);
+    }
+    a {
+        color: var(--black);
+    }
+}

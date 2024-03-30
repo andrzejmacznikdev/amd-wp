@@ -1,0 +1,98 @@
+:root {
+    // colors
+        --black: #000000;
+        --white: #ffffff;
+    // fonts
+        // --ff-regular: 'Inter', sans-serif;
+        // --ff-600: 'Inter-semiBold', sans-serif;
+        // --ff-700: 'Inter-Bold', sans-serif;
+
+    // header size
+        --header-xlg-size: 100px;
+        --header-lg-size: 80px;
+        --header-sm-size: 60px;
+
+    // line-heights for fonts-sizes
+        --lh-s1-xlg: 24px;
+        --lh-s1-lg: 22px;
+        --lh-s1-ds-sm: 20px;
+        --lh-s1-sm: 22px;
+
+        --lh-t1-xlg:26px;
+        --lh-t1-lg: 24px;
+        --lh-t1-ds-sm: 22px;
+        --lh-t1-sm: 22px;
+
+        --lh-a1-xlg: 28px;
+        --lh-a1-lg: 26px;
+        --lh-a1-ds-sm: 24px;
+        --lh-a1-sm: 26px;
+
+        --lh-h1:60px;
+        --lh-h1-xlg: 48px;
+        --lh-h1-lg: 44px;
+        --lh-h1-ds-sm: 38px;
+        --lh-h1-sm: 32px;
+
+        --lh-h2: 45px;
+        --lh-h2-xlg: 40px;
+        --lh-h2-lg: 36px;
+        --lh-h2-ds-sm: 36px;
+        --lh-h2-sm: 30px;
+
+        --lh-h3: 40px;
+        --lh-h3-lg: 38px;
+        --lh-h3-ds-sm: 36px;
+        --lh-h3-sm: 34px;
+
+        --lh-h4:35px;
+        --lh-h4-lg: 32px;
+        --lh-h4-ds-sm: 30px;
+        --lh-h4-sm: 28px;
+
+        --lh-h6: 30px;
+        --lh-h6-lg: 26px;
+        --lh-h6-ds-sm: 24px;
+
+    // font-sizes for typography
+        --fs-s1-xlg: 14px;
+        --fs-s1-lg: 12px;
+        --fs-s1-ds-sm: 10px;
+        --fs-s1-sm: 12px;
+
+        --fs-t1-xlg: 16px;
+        --fs-t1-lg: 14px;
+        --fs-t1-ds-sm: 12px;
+        --fs-t1-sm: 14px;
+
+        --fs-a1-xlg: 18px;
+        --fs-a1-lg: 16px;
+        --fs-a1-ds-sm: 14px;
+        --fs-a1-sm: 16px;
+
+        --fs-h1: 50px;
+        --fs-h1-xlg: 40px;
+        --fs-h1-lg: 38px;
+        --fs-h1-ds-sm: 34px;
+        --fs-h1-sm: 28px;
+
+        --fs-h2: 35px;
+        --fs-h2-xlg: 30px;
+        --fs-h2-lg: 28px;
+        --fs-h2-ds-sm: 26px;
+        --fs-h2-sm: 24px;
+
+        --fs-h3: 30px;
+        --fs-h3-lg: 26px;
+        --fs-h3-ds-sm: 24px;
+        --fs-h3-sm: 22px;
+
+        --fs-h4: 25px;
+        --fs-h4-lg: 22px;
+        --fs-h4-ds-sm: 20px;
+        --fs-h4-sm: 20px;
+
+        --fs-h6: 22px;
+        --fs-h6-lg: 20px;
+        --fs-h6-ds-sm: 18px;
+}

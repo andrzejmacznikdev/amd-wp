@@ -18,7 +18,7 @@
 
 <div class="f-w-description">
     <div class="container">
-        <div class="flex column prel description gap20">
+        <div class="flex flex-col p-rel description gap-20">
             <?= $f_w_description;?>
         </div>
     </div>

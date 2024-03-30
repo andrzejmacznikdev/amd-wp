@@ -1,0 +1,12 @@
+.btn {
+    padding: 0 15px;
+    @include h-Button;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    cursor:pointer;
+    @include rounded-100;
+    @include rounded-md-50;
+}

@@ -17,9 +17,9 @@
     get_header();
 ?>
 
-    <div class="mt-h flex row prel">
+    <div class="mt-h flex row p-rel">
         <div class="container">
-            <section class="lg-12 md-8 sm-6">
+            <section class="grid xlg-12 lg-10 md-8 sm-6">
 
             </section>
         </div>

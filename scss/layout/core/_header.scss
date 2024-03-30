@@ -1,0 +1,9 @@
+.site-header {
+    height: var(--header-xlg-size);
+    @include desktop-large {
+        height: var(--header-lg-size);
+    }
+    @include tablet-small {
+        height: var(--header-sm-size);
+    }
+}

@@ -13,6 +13,6 @@
     defined('ABSPATH') || exit;
 ?>
 
-<div class="heroOne prel col-12">
+<div class="hero-one p-rel w-full mt-h">
     
 </div>

@@ -1,0 +1,447 @@
+// TRANSITIONS
+    @mixin tVerySlow { transition: all 1s ease; }
+    @mixin tSlow { transition: all 0.8s ease; }
+    @mixin tNormal { transition: all 0.4s ease; }
+    @mixin tFast { transition: all 0.2s ease; }
+
+// RWD BREAKPOINTS
+    @mixin desktop-xlarge {
+        @media all and (max-width:1919.98px) {
+            @content;
+        }
+    }
+    @mixin desktop-large {
+        @media all and (max-width: 1599.98px) {
+            @content;
+        }
+    }
+    @mixin desktop {
+        @media all and (max-width:1439.98px) {
+            @content;
+        }
+    }
+    @mixin desktop-small {
+        @media all and (max-width:1365.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-large {
+        @media all and (max-width:1199.98px){
+            @content;
+        }
+    }
+    @mixin tablet {
+        @media all and (max-width:1023.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-medium {
+        @media all and (max-width:991.98px) {
+            @content;
+        }
+    }
+    @mixin tablet-small {
+        @media all and (max-width:767.98px) {
+            @content;
+        }
+    }
+    @mixin mobile {
+        @media all and (max-width: 575.98px) {
+            @content;
+        }
+    }
+
+// FLEX 
+    @mixin flex { display:flex; }
+    @mixin row { flex-direction:row; }
+    @mixin grid { display: grid; }
+    @mixin col { flex-direction: column;}
+
+// HEADERS 
+    @mixin reset-headers {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-block-start: 0;
+        margin-block-end:0;
+    }
+
+// GLOBAL VARIABLES
+    @mixin p-abs { position: absolute; }
+    @mixin p-rel { position: relative; }
+    @mixin p-fix { position: fixed; }
+
+    @mixin rounded-10 {
+        border-radius: 10px;
+    }
+    @mixin rounded-20 {
+        border-radius: 20px;
+    }
+    @mixin rounded-25 {
+        border-radius: 25px;
+    }
+    @mixin rounded-50 {
+        border-radius: 50px;
+    }
+    @mixin rounded-100 {
+        border-radius: 100px;
+        @include desktop-small {
+            border-radius: 75px;
+        }
+        @include tablet-small {
+            border-radius: 50px;
+        }
+    }
+    @mixin rounded-lg-10 {
+        @include desktop-large {
+            border-radius: 10px;
+        }
+    }
+    @mixin rounded-lg-25 {
+        @include desktop-large {
+            border-radius: 25px;
+        }
+    }
+    @mixin rounded-lg-50 {
+        @include desktop-large {
+            border-radius: 50px;
+        }
+    }
+    @mixin rounded-md-10 {
+        @include tablet-medium {
+            border-radius: 10px;
+        }
+    }
+    @mixin rounded-md-25 {
+        @include tablet-medium {
+            border-radius: 25px;
+        }
+    }
+    @mixin rounded-md-50 {
+        @include tablet-medium {
+            border-radius: 50px;
+        }
+    }
+
+    @mixin h-Button {
+        height: 50px;
+        @include desktop-large {
+            height: 45px;
+        }
+        @include desktop-small {
+            height: 40px;
+        }
+    }
+
+// FONTS
+    @mixin bold {
+        font-family: var(--ff-600);
+    }
+    @mixin s1 {
+        font-size: var(--fs-s1-xlg);
+        line-height: var(--lh-s1-xlg);
+        @include desktop-large {
+            font-size: var(--fs-s1-lg);
+            line-height: var(--lh-s1-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-s1-ds-sm);
+            line-height: var(--lh-s1-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-s1-sm);
+            line-height: var(--lh-s1-sm);
+        }
+        p {
+            font-size: 1em;
+            line-height: var(--lh-s1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-s1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-s1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-s1-sm);
+            }
+        }
+        a {
+            font-size: 1em;
+            line-height: var(--lh-s1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-s1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-s1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-s1-sm);
+            }
+        }
+    }
+    @mixin t1 {
+        font-size: var(--fs-t1-xlg);
+        line-height: var(--lh-t1-xlg);
+        @include desktop-large {
+            font-size: var(--fs-t1-lg);
+            line-height: var(--lh-t1-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-t1-ds-sm);
+            line-height: var(--lh-t1-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-t1-sm);
+            line-height: var(--lh-t1-sm);
+        }
+        p {
+            font-size: 1em;
+            line-height: var(--lh-t1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-t1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-t1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-t1-sm);
+            }
+        }
+        a {
+            font-size: 1em;
+            line-height: var(--lh-t1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-t1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-t1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-t1-sm);
+            }
+        }
+    }
+    @mixin a1 {
+        font-size: var(--fs-a1-xlg);
+        line-height: var(--lh-a1-xlg);
+        @include desktop-large {
+            font-size: var(--fs-a1-lg);
+            line-height: var(--lh-a1-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-a1-ds-sm);
+            line-height: var(--lh-a1-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-a1-sm);
+            line-height: var(--lh-a1-sm);
+        }
+        p {
+            font-size: 1em;
+            line-height: var(--lh-a1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-a1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-a1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-a1-sm);
+            }
+        }
+        a {
+            font-size: 1em;
+            line-height: var(--lh-a1-xlg);
+            @include desktop-large {
+                line-height: var(--lh-a1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-a1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-a1-sm);
+            }
+        }
+    }
+
+    @mixin h1 {
+        font-size: var(--fs-h1);
+        line-height: var(--lh-h1);
+        @include desktop-xlarge {
+            font-size: var(--fs-h1-xlg);
+            line-height: var(--lh-h1-xlg);
+        }
+        @include desktop-large {
+            font-size: var(--fs-h1-lg);
+            line-height: var(--lh-h1-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-h1-ds-sm);
+            line-height: var(--lh-h1-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-h1-sm);
+            line-height: var(--lh-h1-sm);
+        }
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-size: 1em;
+            line-height: var(--lh-h1);
+            @include desktop-xlarge {
+                line-height: var(--lh-h1-xlg);
+            }
+            @include desktop-large {
+                line-height: var(--lh-h1-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-h1-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-h1-sm);
+            }
+        }
+    }
+
+    @mixin h2 {
+        font-size: var(--fs-h2);
+        line-height: var(--lh-h2);
+        @include desktop-xlarge {
+            font-size: var(--fs-h2-xlg);
+            line-height: var(--lh-h2-xlg);
+        }
+        @include desktop-large {
+            font-size: var(--fs-h2-lg);
+            line-height: var(--lh-h2-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-h2-ds-sm);
+            line-height: var(--lh-h2-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-h2-sm);
+            line-height: var(--lh-h2-sm);
+        }
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-size: 1em;
+            line-height: var(--lh-h2);
+            @include desktop-xlarge {
+                line-height: var(--lh-h2-xlg);
+            }
+            @include desktop-large {
+                line-height: var(--lh-h2-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-h2-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-h2-sm);
+            }
+        }
+    }
+    @mixin h3 {
+        font-size: var(--fs-h3);
+        line-height: var(--lh-h3);
+        @include desktop-xlarge {
+            font-size: var(--fs-h3-xlg);
+            line-height: var(--lh-h3-xlg);
+        }
+        @include desktop-large {
+            font-size: var(--fs-h3-lg);
+            line-height: var(--lh-h3-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-h3-ds-sm);
+            line-height: var(--lh-h3-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-h3-sm);
+            line-height: var(--lh-h3-sm);
+        }
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-size: 1em;
+            line-height: var(--lh-h3);
+            @include desktop-xlarge {
+                line-height: var(--lh-h3-xlg);
+            }
+            @include desktop-large {
+                line-height: var(--lh-h3-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-h3-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-h3-sm);
+            }
+        }
+    }
+    @mixin h4 {
+        font-size: var(--fs-h4);
+        line-height: var(--lh-h4);
+        @include desktop-xlarge {
+            font-size: var(--fs-h3-xlg);
+            line-height: var(--lh-h3-xlg);
+        }
+        @include desktop-large {
+            font-size: var(--fs-h3-lg);
+            line-height: var(--lh-h3-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-h3-ds-sm);
+            line-height: var(--lh-h3-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-h3-sm);
+            line-height: var(--lh-h3-sm);
+        }
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-size: 1em;
+            line-height: var(--lh-h3);
+            @include desktop-xlarge {
+                line-height: var(--lh-h3-xlg);
+            }
+            @include desktop-large {
+                line-height: var(--lh-h3-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-h3-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-h3-sm);
+            }
+        }
+    }
+
+    @mixin h6 {
+        font-size: var(--fs-h6);
+        line-height: var(--lh-h6);
+        @include desktop-xlarge {
+            font-size: var(--fs-h6-xlg);
+            line-height: var(--lh-h6-xlg);
+        }
+        @include desktop-large {
+            font-size: var(--fs-h6-lg);
+            line-height: var(--lh-h6-lg);
+        }
+        @include desktop-small {
+            font-size: var(--fs-h6-ds-sm);
+            line-height: var(--lh-h6-ds-sm);
+        }
+        @include tablet-small {
+            font-size: var(--fs-h6-sm);
+            line-height: var(--lh-h6-sm);
+        }
+        h1, h2, h3, h4, h5, h6, p, a {
+            font-size: 1em;
+            line-height: var(--lh-h6);
+            @include desktop-xlarge {
+                line-height: var(--lh-h6-xlg);
+            }
+            @include desktop-large {
+                line-height: var(--lh-h6-lg);
+            }
+            @include desktop-small {
+                line-height: var(--lh-h6-ds-sm);
+            }
+            @include tablet-small {
+                line-height: var(--lh-h6-sm);
+            }
+        }
+    }
