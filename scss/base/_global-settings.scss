@@ -34,3 +34,59 @@
         color: var(--black);
     }
 }
+.bcg-white {
+    background-color: var(--white);
+}
+svg {
+    display:flex;
+    @include tFast;
+    path {
+        @include tFast;
+    }
+    rect {
+        @include tFast;
+    }
+}
+
+// HEADERS
+    .main-header {
+        
+    }
+
+    .small-header {
+
+    }
+
+    .bold {
+
+    }
+
+
+.sp {
+    height: 100px;
+    width: 100%;
+    @include p-rel;
+    @include desktop-large {
+        height: 80px;
+    }
+    @include desktop-small {
+        height: 50px;
+    }
+    @include tablet-small {
+        height: 30px;
+    }
+}
+.sm-small {
+    height: 50px;
+    width: 100%;
+    @include p-rel;
+    @include desktop-large {
+        height: 40px;
+    }
+    @include desktop-small {
+        height: 30px;
+    }
+    @include tablet-small {
+        height: 15px;
+    }
+}

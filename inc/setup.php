@@ -69,7 +69,6 @@
             register_nav_menus(
                 [
                     'primary_menu'      =>  __('Header Menu', 'amdwptheme'),
-                    'top_banner_menu'   =>  __('Top Banner Menu', 'amdwptheme'),
                 ]
             );
         }

@@ -19,6 +19,12 @@
         display:none;
     }
 }
+.md-show {
+    display:none;
+    @include tablet-medium {
+        display:flex;
+    }
+}
 .sm-hide {
     @include tablet-small {
         display:none;

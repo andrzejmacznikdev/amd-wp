@@ -15,5 +15,5 @@
     defined('ABSPATH') || exit;
 
     get_header();
-        // content
+
     get_footer();

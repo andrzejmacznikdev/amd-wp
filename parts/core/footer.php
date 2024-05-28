@@ -15,16 +15,5 @@
 
 <div class="sp"></div>
 <footer class="site-footer">
-    <div class="container">
-        <div class="site-footer__top">
-            <div class="">
-            
-            </div>
-        </div>
-        <div class="site-footer__copyright">
-            <div class="">
-            
-            </div>
-        </div>
-    </div>
+
 </footer>

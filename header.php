@@ -30,4 +30,4 @@
         <?php wp_body_open();?>
         <?php get_template_part('parts/core/header');?>
 
-        <div id="main-content" class="flex flex-column w-full p-rel">
+        <main id="main-content" class="flex flex-col w-full p-rel">

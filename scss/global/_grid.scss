@@ -29,6 +29,28 @@
 .grid { 
     @include grid; 
 }
+.grid-columns {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    @include desktop-large {
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+    }
+    @include tablet-medium {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+    }
+    @include tablet-small {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+    }
+    @include mobile {
+        grid-column-gap: 10px;
+    }
+}
 .xlg-12 { 
     @include xlg-12; 
 }
@@ -1164,6 +1186,10 @@
         }
         .col-10-12 {
             grid-column-start: 10;
+            grid-column-end: 13;
+        }
+        .col-11-12 {
+            grid-column-start: 11;
             grid-column-end: 13;
         }
     // desktop-large

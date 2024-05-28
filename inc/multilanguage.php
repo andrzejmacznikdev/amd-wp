@@ -12,4 +12,4 @@
 
     defined('ABSPATH') || exit;
 
-    // pll_register_string('Globalne tłumaczenia', 'tekst', 'amdwootheme');
+    pll_register_string('Globalne tłumaczenia', 'Wszelkie prawa zastrzeżone', 'amdwootheme');
