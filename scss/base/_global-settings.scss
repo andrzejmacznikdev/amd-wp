@@ -3,6 +3,9 @@
     @include desktop-large {
         margin-top: var(--header-lg-size);
     }
+    @include tablet-medium {
+        margin-top: var(--header-md-size);
+    }
     @include tablet-small {
         margin-top: var(--header-sm-size);
     }
@@ -63,17 +66,17 @@ svg {
 
 
 .sp {
-    height: 100px;
+    height: 50px;
     width: 100%;
     @include p-rel;
     @include desktop-large {
-        height: 80px;
+        height: 35px;
     }
-    @include desktop-small {
-        height: 50px;
-    }
+    // @include desktop-small {
+    //     height: 50px;
+    // }
     @include tablet-small {
-        height: 30px;
+        height: 25px;
     }
 }
 .sm-small {

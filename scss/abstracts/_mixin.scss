@@ -447,3 +447,13 @@
             }
         }
     }
+
+    @mixin h-input {
+        height: 50px;
+        @include desktop-large {
+            height: 40px;
+        }
+        @include desktop-small {
+            height: 35px;
+        }
+    }

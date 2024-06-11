@@ -33,6 +33,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
+    display:grid;
     @include desktop-large {
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: 1fr;

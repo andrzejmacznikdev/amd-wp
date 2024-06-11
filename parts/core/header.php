@@ -16,7 +16,7 @@
 
 <header class="site-header p-fix left-0 top-0 w-full zi-100" id="header">
     <div class="container h-full">
-        <div class="grid xlg-12 lg-10 md-8 sm-6 h-full site-header_c">
+        <div class="grid-columns h-full site-header_c">
             <!-- logo -->
             <div class="grid col-1-2 col-md-1-3 site-header-logo h-full">
                 <div class="logo-link flex ai-c h-full p-rel">
@@ -29,7 +29,7 @@
             </div>
             <!-- end logo -->
             <!-- menu -->
-            <div class="grid col-4-9 h-full main-menu md-hide">
+            <div class="grid col-3-8 col-lg-2-6 h-full main-menu md-hide">
                 <?php 
                     wp_nav_menu(
                         [
@@ -45,7 +45,7 @@
             </div>
             <!-- end menu -->
             <!-- informations block -->
-            <div class="grid col-10-12 h-full md-hide jc-fe">
+            <div class="grid col-9-12 col-lg-7-10 h-full md-hide jc-fe">
                 <div class="flex flex-row p-rel h-full">
 
                 </div>

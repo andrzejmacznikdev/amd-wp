@@ -20,4 +20,4 @@
     require get_template_directory() . '/inc/cleanup.php';
     require get_template_directory() . '/inc/options-page-acf.php';
     require get_template_directory() . '/inc/class-nav-walker-header.php';
-    require get_template_directory() . '/inc/multilanguage.php';
+    // require get_template_directory() . '/inc/multilanguage.php';
