@@ -17,7 +17,8 @@
 ?>
         </main>
         <?php get_template_part('parts/core/footer');?>
-        <?php wp_footer();?>
         <script type="text/javascript" src="/wp-content/themes/amd-wp/swiper/swiper-bundle.min.js"></script>
+        <script src="/wp-content/themes/amd-wp/dist/lightbox/js/lightbox.js"></script>
+        <?php wp_footer();?>
     </body>
 </html>

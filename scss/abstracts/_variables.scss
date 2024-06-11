@@ -8,14 +8,17 @@
         // --ff-700: 'Inter-Bold', sans-serif;
 
     // header size
+        --header-size: 100px;
         --header-xlg-size: 100px;
         --header-lg-size: 80px;
+        --header-t-lg-size: 80px;
         --header-md-size: 60px;
         --header-sm-size: 50px;
 
-    // line-heights for fonts-sizes
-
     // S1
+        --fs-s1: 14px;
+        --lh-s1: 24px;
+
         --fs-s1-xlg: 14px;
         --lh-s1-xlg: 24px;
 
@@ -25,10 +28,16 @@
         --fs-s1-ds-sm: 10px;
         --lh-s1-ds-sm: 20px;
 
+        --fs-s1-t-lg: 10px;
+        --lh-s1-t-lg:20px;
+
         --fs-s1-sm: 12px;
         --lh-s1-sm: 22px;
 
     // T1
+        --fs-t1: 16px;
+        --lh-t1: 24px;
+
         --fs-t1-xlg: 16px;
         --lh-t1-xlg:24px;
 
@@ -38,10 +47,17 @@
         --fs-t1-ds-sm: 12px;
         --lh-t1-ds-sm: 20px;
 
+        --fs-t1-t-lg:12px;
+        --lh-t1-t-lg: 20px;
+
         --fs-t1-sm: 14px;
         --lh-t1-sm: 20px;
 
     // A1
+
+        --fs-a1: 18px;
+        --lh-a1: 28px;
+
         --fs-a1-xlg: 18px;
         --lh-a1-xlg: 28px;
 
@@ -50,6 +66,9 @@
         
         --fs-a1-ds-sm: 14px;
         --lh-a1-ds-sm: 24px;
+
+        --fs-a1-t-lg: 14px;
+        --lh-a1-t-lg: 24px;
        
         --fs-a1-sm: 16px;
         --lh-a1-sm: 26px;
@@ -67,6 +86,9 @@
         --fs-h1-ds-sm: 54px;
         --lh-h1-ds-sm: 56px;
 
+        --fs-h1-t-lg: 54px;
+        --lh-h1-t-lg: 56px;
+
         --fs-h1-sm: 40px;
         --lh-h1-sm: 40px;
 
@@ -82,6 +104,9 @@
         
         --fs-h2-ds-sm: 40px;
         --lh-h2-ds-sm: 44px;
+
+        --fs-h2-t-lg: 40px;
+        --lh-h2-t-lg: 44px;
 
         --fs-h2-sm: 28px;
         --lh-h2-sm: 35px;
@@ -99,6 +124,9 @@
         --fs-h3-ds-sm: 24px;
         --lh-h3-ds-sm: 36px;
 
+        --fs-h3-t-lg: 24px;
+        --lh-h3-t-lg: 34px;
+
         --fs-h3-sm: 22px;
         --lh-h3-sm: 34px;
 
@@ -106,11 +134,17 @@
         --fs-h4: 45px;
         --lh-h4:55px;
 
+        --fs-h4-xlg: 45px;
+        --lh-h4-xlg: 55px;
+
         --fs-h4-lg: 38px;
         --lh-h4-lg: 42px;
 
         --fs-h4-ds-sm: 30px;
         --lh-h4-ds-sm: 36px;
+
+        --fs-h4-t-lg: 30px;
+        --lh-h4-t-lg: 36px;
 
         --fs-h4-sm: 22px;
         --lh-h4-sm: 28px;
@@ -119,15 +153,24 @@
         --fs-h5: 22px;
         --lh-h5: 30px;
 
+        --fs-h5-xlg: 20px;
+        --lh-h5-xlg: 26px;
+
         --fs-h5-lg: 20px;
         --lh-h5-lg: 26px;
 
         --fs-h5-ds-sm: 18px;
         --lh-h5-ds-sm: 24px;
 
+        --fs-h5-t-lg: 20px;
+        --lh-h5-t-lg: 26px;
+
     // H6
         --fs-h6: 22px;
         --lh-h6: 30px;
+
+        --fs-h6-xlg: 20px;
+        --lh-h6-xlg: 26px;
 
         --fs-h6-lg: 20px;
         --lh-h6-lg: 26px;
@@ -135,4 +178,6 @@
         --fs-h6-ds-sm: 18px;
         --lh-h6-ds-sm: 24px;
 
+        --fs-h6-t-lg: 18px;
+        --lh-h6-t-lg: 24px;
 }

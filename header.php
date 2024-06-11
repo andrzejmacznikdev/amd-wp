@@ -23,6 +23,7 @@
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="/wp-content/themes/amd-wp/swiper/swiper-bundle.min.css" />
+        <link href="/wp-content/themes/amd-wp/dist/lightbox/css/lightbox.css" rel="stylesheet" />
         <?php wp_head(); ?>
     </head>
 

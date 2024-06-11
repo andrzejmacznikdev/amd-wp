@@ -13,18 +13,22 @@
     ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     ::-moz-placeholder { /* Firefox 19+ */
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     :-ms-input-placeholder { /* IE 10+ */
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     :-moz-placeholder { /* Firefox 18- */
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     textarea:-moz-placeholder, /* Firefox 18- */
     textarea::-moz-placeholder, /* Firefox 19+ */
@@ -33,10 +37,12 @@
     textarea::placeholder { /* Modern browsers */
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     textarea::placeholder {
         color: var(--black);
         font-family: var(--ff-regular);
+        @include t1;
     }
     &-input {
         // width: 100%;
@@ -47,7 +53,7 @@
             width: 100%;
             input {
                 width: 100%;
-                @include h-input;
+                @include h-Input;
                 // @include rounded-10;
                 background-color: var(--white);
                 border: none;
