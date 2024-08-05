@@ -49,9 +49,9 @@ jQuery(function($) {
     // contact form acceptance
         $('#cf-acceptance').change(function() {
             if($(this).is(':checked')) {
-                $('.checkmark-contact-form').addClass('activeCheckmark');
+                $('.checkmark').addClass('activeCheckmark');
             } else {
-                $('.checkmark-contact-form').removeClass('activeCheckmark');
+                $('.checkmark').removeClass('activeCheckmark');
             }
         });
 });

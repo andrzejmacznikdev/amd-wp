@@ -1,183 +1,256 @@
 :root {
     // colors
-        --black: #000000;
+        --black: #1E1E1E;
         --white: #ffffff;
+        --purple: #390F52;
+        --purple-1: #4B1B89;
+        --purple-2: #5D38AD;
+        --purple-3: #714BE2;
+        --light-purple: #B2B2FF;
+        --light-purple-1: #A6A6FF;
+        --light-purple-2: #9494FF;
+        --light-purple-3: #8383FF;
+        --gray-1: #F6F6F6;
+        --gray-2: #E5E8E8;
+        --gray-3: #E3E3E2;
+        --gray-4: #B8B8B8;
+
     // fonts
         // --ff-regular: 'Inter', sans-serif;
         // --ff-600: 'Inter-semiBold', sans-serif;
         // --ff-700: 'Inter-Bold', sans-serif;
 
     // header size
-        --header-size: 100px;
-        --header-xlg-size: 100px;
-        --header-lg-size: 80px;
-        --header-t-lg-size: 80px;
-        --header-md-size: 60px;
-        --header-sm-size: 50px;
+        --header-size: 145px;
+        --header-xlg-size: 145px;
+        --header-lg-size: 105px;
+        --header-t-lg-size: 105px;
+        --header-md-size: 55px;
+        --header-sm-size: 55px;
 
     // S1
         --fs-s1: 14px;
-        --lh-s1: 24px;
+        --lh-s1: 22px;
 
         --fs-s1-xlg: 14px;
-        --lh-s1-xlg: 24px;
+        --lh-s1-xlg: 22px;
 
-        --fs-s1-lg: 12px;
-        --lh-s1-lg: 22px;
+        --fs-s1-lg: 13px;
+        --lh-s1-lg: 21px;
 
-        --fs-s1-ds-sm: 10px;
+        --fs-s1-ds: 13px;
+        --lh-s1-ds: 21px;
+
+        --fs-s1-ds-sm: 12px;
         --lh-s1-ds-sm: 20px;
 
-        --fs-s1-t-lg: 10px;
-        --lh-s1-t-lg:20px;
+        --fs-s1-t-lg: 12px;
+        --lh-s1-t-lg: 20px;
+
+        --fs-s1-t-md: 12px;
+        --lh-s1-t-md:20px;
 
         --fs-s1-sm: 12px;
-        --lh-s1-sm: 22px;
+        --lh-s1-sm: 20px;
 
     // T1
         --fs-t1: 16px;
         --lh-t1: 24px;
 
         --fs-t1-xlg: 16px;
-        --lh-t1-xlg:24px;
+        --lh-t1-xlg: 24px;
 
-        --fs-t1-lg: 14px;
-        --lh-t1-lg: 22px;
+        --fs-t1-lg: 15px;
+        --lh-t1-lg: 23px;
 
-        --fs-t1-ds-sm: 12px;
-        --lh-t1-ds-sm: 20px;
+        --fs-t1-ds: 15px;
+        --lh-t1-ds: 23px;
 
-        --fs-t1-t-lg:12px;
-        --lh-t1-t-lg: 20px;
+        --fs-t1-ds-sm: 14px;
+        --lh-t1-ds-sm: 22px;
+
+        --fs-t1-t-lg: 14px;
+        --lh-t1-t-lg: 22px;
+
+        --fs-t1-t-md: 14px;
+        --lh-t1-t-md:22px;
 
         --fs-t1-sm: 14px;
-        --lh-t1-sm: 20px;
+        --lh-t1-sm: 22px;
 
     // A1
 
-        --fs-a1: 18px;
-        --lh-a1: 28px;
+        --fs-a1: 16px;
+        --lh-a1: 24px;
 
-        --fs-a1-xlg: 18px;
-        --lh-a1-xlg: 28px;
+        --fs-a1-xlg: 16px;
+        --lh-a1-xlg: 24px;
 
-        --fs-a1-lg: 16px;
-        --lh-a1-lg: 26px;
-        
+        --fs-a1-lg: 15px;
+        --lh-a1-lg: 23px;
+
+        --fs-a1-ds: 15px;
+        --lh-a1-ds: 23px;
+
         --fs-a1-ds-sm: 14px;
-        --lh-a1-ds-sm: 24px;
+        --lh-a1-ds-sm: 22px;
 
         --fs-a1-t-lg: 14px;
-        --lh-a1-t-lg: 24px;
-       
-        --fs-a1-sm: 16px;
-        --lh-a1-sm: 26px;
+        --lh-a1-t-lg: 22px;
+
+        --fs-a1-t-md: 14px;
+        --lh-a1-t-md:22px;
+
+        --fs-a1-sm: 14px;
+        --lh-a1-sm: 22px;
 
     // H1
-        --fs-h1: 78px;
-        --lh-h1:80px;
+        --fs-h1: 60px;
+        --lh-h1:60px;
 
-        --fs-h1-xlg: 72px;
-        --lh-h1-xlg: 74px;
+        --fs-h1-xlg: 60px;
+        --lh-h1-xlg: 60px;
 
-        --fs-h1-lg: 64px;
-        --lh-h1-lg: 66px;
+        --fs-h1-lg: 45px;
+        --lh-h1-lg: 45px;
 
-        --fs-h1-ds-sm: 54px;
-        --lh-h1-ds-sm: 56px;
+        --fs-h1-ds: 45px;
+        --lh-h1-ds: 45px;
 
-        --fs-h1-t-lg: 54px;
-        --lh-h1-t-lg: 56px;
+        --fs-h1-ds-sm: 38px;
+        --lh-h1-ds-sm: 43px;
 
-        --fs-h1-sm: 40px;
-        --lh-h1-sm: 40px;
+        --fs-h1-t-lg: 38px;
+        --lh-h1-t-lg: 43px;
+
+        --fs-h1-t-md: 32px;
+        --lh-h1-t-md: 35px;
+
+        --fs-h1-sm: 32px;
+        --lh-h1-sm: 35px;
 
     // H2
-        --fs-h2: 64px;
-        --lh-h2: 70px;
+        --fs-h2: 45px;
+        --lh-h2:45px;
 
-        --fs-h2-xlg: 52px;
-        --lh-h2-xlg: 56px;
+        --fs-h2-xlg: 45px;
+        --lh-h2-xlg: 45px;
 
-        --fs-h2-lg: 46px;
-        --lh-h2-lg: 50px;
-        
-        --fs-h2-ds-sm: 40px;
-        --lh-h2-ds-sm: 44px;
+        --fs-h2-lg: 38px;
+        --lh-h2-lg: 43px;
 
-        --fs-h2-t-lg: 40px;
-        --lh-h2-t-lg: 44px;
+        --fs-h2-ds: 38px;
+        --lh-h2-ds: 43px;
 
-        --fs-h2-sm: 28px;
-        --lh-h2-sm: 35px;
+        --fs-h2-ds-sm: 32px;
+        --lh-h2-ds-sm: 37px;
+
+        --fs-h2-t-lg: 32px;
+        --lh-h2-t-lg: 37px;
+
+        --fs-h2-t-md: 27px;
+        --lh-h2-t-md: 32px;
+
+        --fs-h2-sm: 27px;
+        --lh-h2-sm: 32px;
 
     // H3
-        --fs-h3: 30px;
-        --lh-h3: 40px;
+        --fs-h3: 38px;
+        --lh-h3:42px;
 
-        --fs-h3-xlg: 28px;
-        --lh-h3-xlg: 34px;
-        
-        --fs-h3-lg: 26px;
-        --lh-h3-lg: 38px;
+        --fs-h3-xlg: 38px;
+        --lh-h3-xlg: 42px;
 
-        --fs-h3-ds-sm: 24px;
-        --lh-h3-ds-sm: 36px;
+        --fs-h3-lg: 32px;
+        --lh-h3-lg: 37px;
 
-        --fs-h3-t-lg: 24px;
-        --lh-h3-t-lg: 34px;
+        --fs-h3-ds: 32px;
+        --lh-h3-ds: 37px;
 
-        --fs-h3-sm: 22px;
-        --lh-h3-sm: 34px;
+        --fs-h3-ds-sm: 28px;
+        --lh-h3-ds-sm: 33px;
+
+        --fs-h3-t-lg: 28px;
+        --lh-h3-t-lg: 33px;
+
+        --fs-h3-t-md: 24px;
+        --lh-h3-t-md: 29px;
+
+        --fs-h3-sm: 24px;
+        --lh-h3-sm: 29px;
 
     // H4
-        --fs-h4: 45px;
-        --lh-h4:55px;
+        --fs-h4: 32px;
+        --lh-h4: 37px;
 
-        --fs-h4-xlg: 45px;
-        --lh-h4-xlg: 55px;
+        --fs-h4-xlg: 32px;
+        --lh-h4-xlg: 37px;
 
-        --fs-h4-lg: 38px;
-        --lh-h4-lg: 42px;
+        --fs-h4-lg: 27px;
+        --lh-h4-lg: 32px;
 
-        --fs-h4-ds-sm: 30px;
-        --lh-h4-ds-sm: 36px;
+        --fs-h4-ds: 27px;
+        --lh-h4-ds: 32px;
 
-        --fs-h4-t-lg: 30px;
-        --lh-h4-t-lg: 36px;
+        --fs-h4-ds-sm: 24px;
+        --lh-h4-ds-sm: 29px;
 
-        --fs-h4-sm: 22px;
-        --lh-h4-sm: 28px;
+        --fs-h4-t-lg: 24px;
+        --lh-h4-t-lg: 29px;
+
+        --fs-h4-t-md: 20px;
+        --lh-h4-t-md: 25px;
+
+        --fs-h4-sm: 20px;
+        --lh-h4-sm: 25px;
         
     // H5
-        --fs-h5: 22px;
-        --lh-h5: 30px;
+        --fs-h5: 29px;
+        --lh-h5: 35px;
 
-        --fs-h5-xlg: 20px;
-        --lh-h5-xlg: 26px;
+        --fs-h5-xlg: 29px;
+        --lh-h5-xlg: 35px;
 
-        --fs-h5-lg: 20px;
-        --lh-h5-lg: 26px;
+        --fs-h5-lg: 25px;
+        --lh-h5-lg: 30px;
 
-        --fs-h5-ds-sm: 18px;
-        --lh-h5-ds-sm: 24px;
+        --fs-h5-ds: 25px;
+        --lh-h5-ds: 30px;
 
-        --fs-h5-t-lg: 20px;
-        --lh-h5-t-lg: 26px;
+        --fs-h5-ds-sm: 22px;
+        --lh-h5-ds-sm: 27px;
+
+        --fs-h5-t-lg: 22px;
+        --lh-h5-t-lg: 27px;
+
+        --fs-h5-t-md: 19px;
+        --lh-h5-t-md: 24px;
+
+        --fs-h5-sm: 19px;
+        --lh-h5-sm: 24px;
 
     // H6
-        --fs-h6: 22px;
+        --fs-h6: 25px;
         --lh-h6: 30px;
 
-        --fs-h6-xlg: 20px;
-        --lh-h6-xlg: 26px;
+        --fs-h6-xlg: 25px;
+        --lh-h6-xlg: 30px;
 
-        --fs-h6-lg: 20px;
-        --lh-h6-lg: 26px;
+        --fs-h6-lg: 22px;
+        --lh-h6-lg: 37px;
 
-        --fs-h6-ds-sm: 18px;
-        --lh-h6-ds-sm: 24px;
+        --fs-h6-ds: 22px;
+        --lh-h6-ds: 37px;
 
-        --fs-h6-t-lg: 18px;
-        --lh-h6-t-lg: 24px;
+        --fs-h6-ds-sm: 20px;
+        --lh-h6-ds-sm: 25px;
+
+        --fs-h6-t-lg: 20px;
+        --lh-h6-t-lg: 25px;
+
+        --fs-h6-t-md: 18px;
+        --lh-h6-t-md: 23px;
+
+        --fs-h6-sm: 18px;
+        --lh-h6-sm: 23px;
 }

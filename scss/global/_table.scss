@@ -1,0 +1,15 @@
+.table {
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        th,td {
+            border: 1px solid #0e0e0e4d;
+            min-height: 39px;
+            padding-top:10px;
+            padding-bottom:10px;
+            padding-left: 15px;
+            text-align: center;
+            padding-right: 15px;
+        }
+    }
+}

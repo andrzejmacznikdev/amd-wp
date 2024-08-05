@@ -11,7 +11,7 @@
 
 .t-lg-hide {
     @include tablet-large {
-        display:none;
+        display:none !important;
     }
 }
 .md-hide {
@@ -63,6 +63,12 @@
 .ds-sm-grid-show {
     @include desktop-small {
         display:grid;
+    }
+}
+.t-lg-show {
+    display:none;
+    @include tablet-large {
+        display:flex;
     }
 }
 .sm-flex-show {

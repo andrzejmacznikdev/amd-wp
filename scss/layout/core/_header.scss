@@ -1,7 +1,16 @@
 .site-header {
-    height: var(--header-xlg-size);
+    height: var(--header-size);
+    @include desktop-xlarge {
+        height: var(--header-xlg-size);
+    }
     @include desktop-large {
         height: var(--header-lg-size);
+    }
+    @include tablet-large {
+        height: var(--header-t-lg-size);
+    }
+    @include tablet-medium {
+        height: var(--header-md-size);
     }
     @include tablet-small {
         height: var(--header-sm-size);
