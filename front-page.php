@@ -23,7 +23,7 @@
 
         while(have_rows('choose-section', $idPost)):the_row();
             $layout = get_row_layout();
-            get_template_part('parsts/sections/' . $layout);
+            get_template_part('parts/sections/' . $layout);
         endwhile;
     
     get_footer();

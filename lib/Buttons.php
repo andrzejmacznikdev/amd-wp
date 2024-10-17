@@ -19,5 +19,7 @@
             $btn .= '<span class="text">' . esc_html($button['title']) . '</span>';
             $btn .= '<span class="icon"></span>';
             $btn .= '</a>';
+
+            return $btn;
         }
     }
